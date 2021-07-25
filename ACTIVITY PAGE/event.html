@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ACTIVITY PAGE</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+  body{
+    background-image: url("bg24.jpg");
+    background-repeat: repeat;
+  }
+  h1{
+    padding-top: 50px;
+    font-family: "Comic Sans MS";
+    font-size: 25pt;
+  }
+.container,.container1,.container2 {
+  position: relative;
+  width: 50%;
+  max-width: 400px;
+   margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  padding-bottom: 20px;
+
+
+}
+.container1 img {
+  width:200px;
+  height: 200px;
+border-radius: 30px;
+padding-bottom: 20px;
+
+}
+.container2 img {
+ width: 100px;
+  height: 220px;
+border-radius: 30px;
+padding-bottom: 20px;
+
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 14px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container1 .btn1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container2 .btn2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: black;
+}
+.container1 .btn1:hover {
+  background-color: black;
+}
+.container2 .btn1:hover {
+  background-color: black;
+}
+.row::after {
+ 
+  display: flex;
+}
+a:hover
+{
+   background-color: white;
+
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  font-size: 20pt;
+  display: block;
+  background-color:grey;
+  color: blue;
+  width: 100%;
+}
+</style>
+
+  <!-- =======================================================
+  * Template Name: Tempo - v2.2.0
+  * Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to <strong> EVENTS </strong></h1>
+     <div class="row">
+<div class="container">
+  <img src="details.png" alt="student" style="width:100%">
+  <button class="btn" onclick="reg()">EVENT 1 - EventId = ACE01</button>
+   
+</div>
+
+<div class="container1">
+  <img src="details.png" alt="teacher" style="width:100%">
+  <button class="btn1" onclick="reg()">EVENT 2 - EventId = ACE02</button>
+  </div>
+</div>
+
+<div class="container2">
+  <img src="video.jpg" alt="teacher" style="width:100%">
+  <button class="btn2" onclick="mem()">MEMBER REG</button>
+  </div>
+</div>
+    
+    </div>
+  </div>
+  </section><!-- End Hero -->
+<footer>
+   <a href="http://localhost/event-management-master/index.php">Home Page</a>
+
+</footer>
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+   
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+<script type="text/javascript">
+  function reg()
+  {
+    window.location="http://localhost/event-management-master/USERS/stud.html";
+  }
+ 
+  function mem()
+  {
+    window.location="http://localhost/event-management-master/USERS/mem.html";
+  }
+</script>
+</body>
+
+</html>
